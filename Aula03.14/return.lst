@@ -1,0 +1,14 @@
+     1                                  ; Exercicio 2: retorna
+     2                                  ;  echo $?
+     3                                  
+     4                                    SECTION .text
+     5                                  
+     6                                    global _start
+     7                                  
+     8                                  ; Program entry point
+     9                                    _start:
+    10                                  
+    11 00000000 BB0F000000                mov ebx, 15
+    12                                  
+    13 00000005 B801000000                mov eax, 1        ; exit
+    14 0000000A CD80                      int 0x80          ; int
