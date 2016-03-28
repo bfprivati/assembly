@@ -1,3 +1,8 @@
-# Repositorio Linguagens de Montagens #
+# Repositorio Linguagens de Montagens
 
-## Assembly aula 03.21 ##
+## Authors
+
+- Bianca Privati
+- Dalton Lima - sacinopatinete@gmail.com - @daltonbr
+
+## Assembly aula 03.21
