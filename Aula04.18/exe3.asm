@@ -20,21 +20,21 @@ global _start
 _start:
 
        ;move 2 para vetor[1]
-  mov ax, [idade]      ; nao pode votar
-  mov bx, [minAge]
-  cmp bx, ax
+  mov al, [idade]      ; nao pode votar
+  mov bl, [minAge]
+  cmp al, bl
   jl mensagem1
 
-  mov bx, [rightAge]  ;voto facultativo
-  cmp bx, ax
+  mov bl, [rightAge]  ;voto facultativo
+  cmp al, bl
   jl mensagem2
 
-  mov bx, [maxAge]  ;voto facultativo
-  cmp bx, ax
+  mov bl, [maxAge]  ;voto facultativo
+  cmp al, bl
   jae mensagem2
 
-  mov bx, [rightAge]
-  cmp bx, ax
+  mov bl, [rightAge]
+  cmp al, bl
   jae mensagem3   ;obrigatorio
 
 mensagem1:
