@@ -1,0 +1,18 @@
+Instalar gcc-multilib
+
+No Ubuntu:
+$ sudo apt-get install gcc-multilib
+se nao rolar, tente:
+$ sudo apt-get update
+
+Pilhas crescem "para baixo" (em enderecos de memoria)
+
+Macros sao montadas no Compile-Time
+
+Procedures sao chamadas em Running-Time
+
+Os enderecos para retorno das Procedures sao armazenados na Pilha!
+
+Armazenamos na Pilha os parametros das chamadas e seus retornos
+
+https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html
